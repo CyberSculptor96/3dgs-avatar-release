@@ -148,6 +148,7 @@ def test(config):
 
 @hydra.main(version_base=None, config_path="configs", config_name="config")
 def main(config):
+    # import ipdb; ipdb.set_trace()
     OmegaConf.set_struct(config, False)
     config.dataset.preload = False
 

@@ -14,3 +14,7 @@ body_models
 tools
 scripts
 SIBR_viewers
+
+data
+__pycache__
+bak

@@ -104,6 +104,7 @@ start_checkpoint: null
 wandb_disable: false
 
 mode: train
-load_ckpt: null
+# load_ckpt: null
+load_ckpt: ./exp/pretrained_model/ckpt15000.pth
 evaluate: true
 clean: true
